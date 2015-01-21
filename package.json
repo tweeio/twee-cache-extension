@@ -1,0 +1,39 @@
+{
+    "name": "twee-cache-extension",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
+    "homepage": "https://github.com/mesin/twee-cache-extension",
+    "description": "Cache Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "license": "MIT",
+    "dependencies": {
+        "redis": "*"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mesin/twee-cache-extension.git"
+    },
+    "keywords": [
+        "cache",
+        "redis",
+        "memcache",
+        "files",
+        "memory",
+        "twee.io",
+        "framework",
+        "extensions",
+        "modules",
+        "route",
+        "web",
+        "middleware",
+        "mvc",
+        "routes",
+        "rest",
+        "restful",
+        "api"
+    ],
+    "bugs": {
+        "url": "https://github.com/mesin/twee-cache-extension/issues"
+    }
+}
