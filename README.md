@@ -2,7 +2,8 @@
 
 ![Twee.io Logo](https://s3.eu-central-1.amazonaws.com/meshin/public/twee.io.png)
 
-Cache extension for twee.io with support of Redis, Memcache, Memory, Files storages
+Cache extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js
+Supports Redis, Memcache, Memory, Files storages
 
 To install it use this command:
 
