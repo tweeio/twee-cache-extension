@@ -5,7 +5,7 @@ module.exports.extension = function() {
     "use strict";
 
     var _redis = require("redis")
-        , redisConfig = twee.getConfig('twee:options:cache:redis');
+        , redisConfig = twee.getConfig('extension:twee-cache:redis');
 
     var redisClient = _redis.createClient(redisConfig);
 
@@ -19,4 +19,13 @@ module.exports.extension = function() {
     });
 
     twee.getApplication().set('redis', redisClient);
+};
+
+module.exports.configNamespace = 'twee-cache';
+
+module.exports.config = {
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+    }
 };
