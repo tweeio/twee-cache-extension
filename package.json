@@ -1,7 +1,7 @@
 {
     "name": "twee-cache-extension",
     "preferGlobal": false,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
     "homepage": "https://github.com/mesin/twee-cache-extension",
     "description": "Cache Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
