@@ -14,3 +14,23 @@ To install it use this command:
 ```
 npm install twee-cache-extension --save
 ```
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-cache-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "Redis Cache": {
+            "module": "twee-cache-extension/redis"
+        }
+    }
+};
+```

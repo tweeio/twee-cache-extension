@@ -1,9 +1,9 @@
 {
     "name": "twee-cache-extension",
     "preferGlobal": false,
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-cache-extension",
+    "homepage": "https://github.com/tweeio/twee-cache-extension",
     "description": "Cache Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {
@@ -12,7 +12,7 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-cache-extension.git"
+        "url": "https://github.com/tweeio/twee-cache-extension.git"
     },
     "keywords": [
         "cache",
@@ -34,6 +34,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-cache-extension/issues"
+        "url": "https://github.com/tweeio/twee-cache-extension/issues"
     }
 }
