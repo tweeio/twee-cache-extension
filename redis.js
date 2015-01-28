@@ -5,7 +5,7 @@ module.exports.extension = function() {
     "use strict";
 
     var _redis = require("redis")
-        , redisConfig = twee.getConfig('extension:twee-cache:redis');
+        , redisConfig = twee.getConfig('twee:extension:twee-cache:redis');
 
     var redisClient = _redis.createClient(redisConfig);
 
